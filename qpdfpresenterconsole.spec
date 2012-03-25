@@ -8,7 +8,6 @@ Release:        1
 License:        MIT
 Source0:        http://sourceforge.net/projects/%{sfname}/files/sources/%{name}-v%{version}.tar.bz2
 Group:          Graphical desktop/Other
-Vendor:         Alexandre Lissy
 Url:		http://gitorious.org/qpdfpresenterconsole
 BuildRoot:      %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildRequires:	cmake
