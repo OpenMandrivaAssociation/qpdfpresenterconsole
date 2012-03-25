@@ -13,6 +13,7 @@ BuildRoot:      %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildRequires:	cmake
 BuildRequires:	asciidoc
 BuildRequires:	docbook-xsl
+BuildRequires:	docbook-dtd45-xml
 BuildRequires:	xsltproc
 BuildRequires:	libxml2-utils
 BuildRequires:	libpoppler-qt4-devel
