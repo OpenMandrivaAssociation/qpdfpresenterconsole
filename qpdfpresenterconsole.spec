@@ -56,3 +56,13 @@ make -C build DESTDIR=%buildroot install
 %{_datadir}/%{name}/*
 %{_datadir}/pixmaps/%{fullname}.png
 %{_datadir}/applications/%{fullname}.desktop
+
+
+%changelog
+* Sun Mar 25 2012 Alexandre Lissy <alissy@mandriva.com> 2.5.13-1
++ Revision: 786667
+- added dependency against docbook-dtd45-xml (needed by asciidoc)
+- fix (remove) invalid vendor field
+- Imported QPdfPresenterConsole
+- Created package structure for 'qpdfpresenterconsole'.
+
