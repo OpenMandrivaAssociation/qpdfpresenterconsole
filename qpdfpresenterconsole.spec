@@ -4,12 +4,11 @@
 Summary:        Beamer-targeted presentation tool
 Name:           qpdfpresenterconsole
 Version:        2.5.13
-Release:        1
+Release:        2
 License:        MIT
 Source0:        http://sourceforge.net/projects/%{sfname}/files/sources/%{name}-v%{version}.tar.bz2
 Group:          Graphical desktop/Other
 Url:		http://gitorious.org/qpdfpresenterconsole
-BuildRoot:      %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildRequires:	cmake
 BuildRequires:	asciidoc
 BuildRequires:	docbook-xsl
