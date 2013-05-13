@@ -17,8 +17,8 @@ BuildRequires:	docbook-dtd45-xml
 BuildRequires:	xsltproc
 BuildRequires:	libxml2-utils
 BuildRequires:	libpoppler-qt4-devel
-BuildRequires:	libqt4-devel
-BuildRequires:	libvlc-devel
+BuildRequires:	pkgconfig(Qt3Support)
+BuildRequires:	pkgconfig(libvlc)
 
 %description
 Presentation console software, similar to what is provided by LibreOffice
