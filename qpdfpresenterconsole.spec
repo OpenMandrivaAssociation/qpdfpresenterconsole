@@ -4,7 +4,7 @@
 Summary:        Beamer-targeted presentation tool
 Name:           qpdfpresenterconsole
 Version:        2.5.13
-Release:        2
+Release:        3
 License:        MIT
 Source0:        http://sourceforge.net/projects/%{sfname}/files/sources/%{name}-v%{version}.tar.bz2
 Group:          Graphical desktop/Other
