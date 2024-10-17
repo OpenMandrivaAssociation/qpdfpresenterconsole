@@ -8,7 +8,7 @@ Release:        3
 License:        MIT
 Source0:        http://sourceforge.net/projects/%{sfname}/files/sources/%{name}-v%{version}.tar.bz2
 Group:          Graphical desktop/Other
-Url:		http://gitorious.org/qpdfpresenterconsole
+Url:		https://gitorious.org/qpdfpresenterconsole
 BuildRequires:	cmake
 BuildRequires:	asciidoc
 BuildRequires:	docbook-xsl
